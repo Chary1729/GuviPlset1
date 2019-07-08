@@ -1,3 +1,3 @@
-a=input()
-a=a[::-1]
-print(a)
+string_input=input()
+string_rev=string_input[::-1]
+print(string_rev)
