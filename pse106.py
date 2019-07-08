@@ -1,6 +1,10 @@
+string1,string2 = input().split()
 
-inp1,inp2=input().split()
-if(inp1[0:1]==inp1[0] and inp2[0:1]==inp2[0]):
-  print('yes')
+temp = string1
+for i in range(len(string1)):
+    temp = temp.replace(temp[i],string2[i])
+
+if(temp == string2):
+    print("yes")
 else:
-  print('no')
+    print("no")
